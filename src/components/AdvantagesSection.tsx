@@ -79,7 +79,7 @@ export function AdvantagesSection() {
               style={{ transformStyle: 'preserve-3d' }}
             >
               <div className="w-14 h-14 rounded-xl bg-primary/20 flex items-center justify-center mb-4 group-hover:bg-primary/30 transition-colors">
-                <advantage.icon className="w-7 h-7 text-primary" />
+                <advantage.icon className="w-7 h-7 text-primary icon-glow" />
               </div>
               <h3 className="text-xl font-display font-bold mb-3 text-foreground">
                 {advantage.title}

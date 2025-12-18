@@ -36,7 +36,7 @@ export function Footer() {
             className="glass rounded-2xl p-6 flex items-center gap-4 hover-lift"
           >
             <div className="w-14 h-14 rounded-xl bg-telegram/20 flex items-center justify-center">
-              <Send className="w-7 h-7 text-telegram" />
+              <Send className="w-7 h-7 text-telegram icon-glow" />
             </div>
             <div>
               <span className="block font-semibold text-foreground">Telegram канал</span>
@@ -55,7 +55,7 @@ export function Footer() {
             className="glass rounded-2xl p-6 flex items-center gap-4 hover-lift"
           >
             <div className="w-14 h-14 rounded-xl bg-telegram/20 flex items-center justify-center">
-              <Send className="w-7 h-7 text-telegram" />
+              <Send className="w-7 h-7 text-telegram icon-glow" />
             </div>
             <div>
               <span className="block font-semibold text-foreground">Telegram бот</span>
