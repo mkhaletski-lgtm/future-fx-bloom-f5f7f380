@@ -104,7 +104,7 @@ export function AdvisorSection({ onOpenEmailForm }: AdvisorSectionProps) {
                 transition={{ duration: 0.4, delay: 0.7 + index * 0.1 }}
                 className="flex items-start gap-3 p-4 rounded-xl bg-secondary/30"
               >
-                <Check className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                <Check className="w-5 h-5 text-primary mt-0.5 flex-shrink-0 icon-glow" />
                 <span className="text-foreground text-sm">{feature}</span>
               </motion.div>
             ))}
@@ -165,7 +165,7 @@ export function AdvisorSection({ onOpenEmailForm }: AdvisorSectionProps) {
               </a>
             </Button>
             <Button variant="outline" size="lg" onClick={onOpenEmailForm}>
-              <Mail className="mr-2" />
+              <Mail className="mr-2 icon-glow" />
               ПОЛУЧИТЬ СОВЕТНИКА БЕСПЛАТНО НА E-MAIL
             </Button>
           </div>

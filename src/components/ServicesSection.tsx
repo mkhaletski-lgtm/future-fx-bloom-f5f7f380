@@ -58,7 +58,7 @@ export function ServicesSection() {
               ))}
             </ul>
 
-            <Button variant="outline" asChild>
+            <Button variant="default" className="w-full bg-menu hover:bg-menu/90" asChild>
               <a href="#faq">Узнать подробнее</a>
             </Button>
           </motion.div>
@@ -88,13 +88,13 @@ export function ServicesSection() {
                 { icon: Clock4, label: 'Работает круглосуточно' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-3 p-3 rounded-xl bg-secondary/30">
-                  <Icon className="w-5 h-5 text-primary" />
+                  <Icon className="w-5 h-5 text-primary icon-glow" />
                   <span className="text-sm text-foreground">{label}</span>
                 </div>
               ))}
             </div>
 
-            <Button variant="outline" asChild>
+            <Button variant="default" className="w-full bg-menu hover:bg-menu/90" asChild>
               <a href="#advisor">Узнать подробнее</a>
             </Button>
           </motion.div>

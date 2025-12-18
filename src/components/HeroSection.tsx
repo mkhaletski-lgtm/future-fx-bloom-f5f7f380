@@ -11,7 +11,7 @@ interface HeroSectionProps {
 
 export function HeroSection({ onOpenEmailForm }: HeroSectionProps) {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-40">
       {/* Trading Chart Background Image */}
       <div 
         className="absolute inset-0 z-0"
@@ -92,7 +92,7 @@ export function HeroSection({ onOpenEmailForm }: HeroSectionProps) {
             onClick={onOpenEmailForm}
             className="w-full sm:w-auto"
           >
-            <Mail className="mr-2" />
+            <Mail className="mr-2 icon-glow" />
             ПОЛУЧИТЬ СОВЕТНИКА БЕСПЛАТНО НА E-MAIL
           </Button>
         </motion.div>
