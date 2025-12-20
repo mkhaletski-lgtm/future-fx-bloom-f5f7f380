@@ -79,10 +79,11 @@ export function Header() {
       <AnimatePresence>
         {isMobileMenuOpen && (
           <motion.div
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: 'auto' }}
-            exit={{ opacity: 0, height: 0 }}
-            className="lg:hidden overflow-hidden"
+            initial={{ opacity: 0, y: -10 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -10 }}
+            transition={{ duration: 0.2 }}
+            className="lg:hidden absolute top-full left-0 right-0"
             style={{ backgroundColor: 'hsl(174 100% 25%)' }}
           >
             <nav className="container mx-auto py-4 flex flex-col gap-2">
@@ -90,8 +91,15 @@ export function Header() {
                 <a
                   key={item.label}
                   href={item.href}
-                  className="px-4 py-3 text-sm font-medium text-menu-foreground hover:bg-menu-foreground/10 rounded-lg transition-colors"
-                  onClick={() => setIsMobileMenuOpen(false)}
+                  className="block px-4 py-3 text-sm font-medium text-menu-foreground hover:bg-menu-foreground/10 rounded-lg transition-colors cursor-pointer"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setIsMobileMenuOpen(false);
+                    const target = document.querySelector(item.href);
+                    if (target) {
+                      target.scrollIntoView({ behavior: 'smooth' });
+                    }
+                  }}
                 >
                   {item.label}
                 </a>
