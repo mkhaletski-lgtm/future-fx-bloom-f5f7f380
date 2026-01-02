@@ -54,7 +54,7 @@ export function AboutSection() {
             <div className="glass rounded-2xl p-8 space-y-6">
               <div className="flex items-center gap-4">
                 <div className="w-16 h-16 rounded-xl bg-primary/20 flex items-center justify-center">
-                  <span className="text-3xl font-display font-bold gradient-text">19+</span>
+                  <span className="text-3xl font-display font-bold gradient-text">20+</span>
                 </div>
                 <div>
                   <span className="text-xl font-bold text-foreground">Лет опыта</span>
