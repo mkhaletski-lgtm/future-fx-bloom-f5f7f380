@@ -63,7 +63,7 @@ export function HeroSection({ onOpenEmailForm }: HeroSectionProps) {
             </div>
             <div className="hidden sm:block w-px h-16 bg-gray-300" />
             <div className="text-center">
-              <span className="block text-4xl md:text-5xl font-display font-bold text-destructive">19+</span>
+              <span className="block text-4xl md:text-5xl font-display font-bold text-destructive">20+</span>
               <span className="text-gray-600">лет опыта</span>
             </div>
           </div>

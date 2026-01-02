@@ -142,13 +142,13 @@ export function AdvisorSection({ onOpenEmailForm }: AdvisorSectionProps) {
             Результат торговли советника (эксперта) <span className="gradient-text">PROSSFX</span> в 2025 году
           </h3>
           <p className="text-lg text-center text-muted-foreground mb-8">
-            Совокупная чистая прибыль составила <span className="text-primary font-bold">218.58 USD</span> при начальном депозите 200 USD — это рост капитала более чем на <span className="text-primary font-bold">109%</span> без участия трейдера!
+            Совокупная чистая прибыль по результатам торговли в 2025 году составила <span className="text-primary font-bold">279.38 USD</span> при начальном депозите 200 USD — это рост капитала на <span className="text-primary font-bold">140%</span>, полностью в автоматическом режиме! Увеличение депозита в <span className="text-primary font-bold">2.4 раза</span>!
           </p>
           
           <div className="relative rounded-2xl overflow-hidden mb-8">
             <img
               src={resultsImage}
-              alt="Результаты торговли советника PROSSFX в 2025 году"
+              alt="Результат работы советника PROSSFX в 2025 году"
               className="w-full h-auto"
             />
           </div>
