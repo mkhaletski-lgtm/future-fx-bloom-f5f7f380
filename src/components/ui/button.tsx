@@ -15,7 +15,7 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent/10 hover:text-accent",
         link: "text-primary underline-offset-4 hover:underline",
-        telegram: "bg-telegram text-telegram-foreground hover:bg-telegram/90 shadow-[0_4px_20px_hsl(202_91%_66%/0.4)] hover:shadow-[0_4px_30px_hsl(202_91%_66%/0.5)]",
+        telegram: "bg-telegram text-telegram-foreground hover:bg-telegram/90 shadow-[0_4px_20px_hsl(202_91%_66%/0.4)] hover:shadow-[0_4px_30px_hsl(202_91%_66%/0.5)] btn-shine",
         glass: "bg-secondary/40 backdrop-blur-xl text-foreground hover:bg-secondary/60 border border-primary/30 hover:border-primary/60",
         hero: "bg-gradient-to-r from-primary to-accent text-primary-foreground hover:from-primary/90 hover:to-accent/90 shadow-[0_4px_20px_hsl(174_100%_42%/0.4)] font-display tracking-wide",
       },
