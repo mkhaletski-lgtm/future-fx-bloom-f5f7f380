@@ -66,7 +66,7 @@ export function BookSection() {
               href="https://ridero.ru/books/foreks_bez_illyuzii_pochemu_ruchnaya_torgovlya_tupik/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 h-14 px-8 rounded-lg text-base font-semibold text-primary-foreground bg-gradient-to-r from-[hsl(174,100%,50%)] to-[hsl(195,100%,60%)] hover:from-[hsl(174,100%,45%)] hover:to-[hsl(195,100%,55%)] shadow-[0_4px_20px_hsl(174_100%_42%/0.4)] transition-all duration-300 btn-shine"
+              className="inline-flex items-center gap-2 h-14 px-8 rounded-lg text-base font-semibold text-primary-foreground bg-menu hover:bg-menu/90 shadow-[0_4px_20px_hsl(174_100%_42%/0.4)] transition-all duration-300 btn-shine"
             >
               <Download className="w-5 h-5" />
               СКАЧАТЬ БЕСПЛАТНО
