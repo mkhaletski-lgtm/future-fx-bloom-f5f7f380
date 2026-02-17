@@ -3,6 +3,7 @@ import cashbackBanner from '@/assets/cashback-banner.jpg';
 import { Header } from '@/components/Header';
 import { HeroSection } from '@/components/HeroSection';
 import { AboutSection } from '@/components/AboutSection';
+import { BookSection } from '@/components/BookSection';
 import { AdvantagesSection } from '@/components/AdvantagesSection';
 import { ServicesSection } from '@/components/ServicesSection';
 import { FAQSection } from '@/components/FAQSection';
@@ -20,6 +21,7 @@ const Index = () => {
       <main>
         <HeroSection onOpenEmailForm={() => setIsEmailFormOpen(true)} />
         <AboutSection />
+        <BookSection />
         <AdvantagesSection />
         <ServicesSection />
         <FAQSection />
