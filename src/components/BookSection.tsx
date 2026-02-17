@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
 import { Download } from 'lucide-react';
-import bookCover from '@/assets/book-cover.jpg';
+import bookCover from '@/assets/book-cover.png';
 
 export function BookSection() {
   const ref = useRef(null);
@@ -24,7 +24,7 @@ export function BookSection() {
           >
             <motion.img
               src={bookCover}
-              alt="Книга Форекс без иллюзий"
+              alt="Книга Максима Халецкого - Форекс без иллюзий. Почему ручная торговля - тупик."
               className="max-w-[320px] w-full rounded-xl shadow-[0_20px_60px_rgba(0,150,137,0.3)]"
               animate={{ y: [0, -15, 0] }}
               transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
